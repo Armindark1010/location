@@ -1,7 +1,9 @@
 <template>
-  <nav>
+  <nav class="fixed right-0 left-0 z-[999]">
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/about">About</router-link>|
+    <router-link to="/Login">Login</router-link>|
+    <router-link to="/register">register</router-link>
   </nav>
   <router-view/>
 </template>
